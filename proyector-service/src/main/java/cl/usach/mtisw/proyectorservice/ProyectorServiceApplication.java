@@ -1,13 +1,13 @@
-package cl.usach.mtisw.profesoresservice;
+package cl.usach.mtisw.proyectorservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ProfesoresServiceApplication {
+public class ProyectorServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProfesoresServiceApplication.class, args);
+        SpringApplication.run(ProyectorServiceApplication.class, args);
     }
 
 }

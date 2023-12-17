@@ -2,7 +2,7 @@ spring:
   cloud:
     config:
       enabled: true
-      uri: http://localhost:8081  # Esta es la configuración de un servidor de configuración remoto, ajusta si es necesario
+      uri: http://localhost:8001  # Esta es la configuración de un servidor de configuración remoto, ajusta si es necesario
 
   application:
     name: profesores-service
