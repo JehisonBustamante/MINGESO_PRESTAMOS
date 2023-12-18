@@ -1,8 +1,6 @@
 package cl.usach.mtisw.proyectorservice.service;
 
-import cl.usach.mtisw.proyectorservice.entity.Prestamo;
 import cl.usach.mtisw.proyectorservice.entity.Proyector;
-import cl.usach.mtisw.proyectorservice.repository.PrestamoRepository;
 import cl.usach.mtisw.proyectorservice.repository.ProyectorRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,11 +12,6 @@ public class ProyectorService {
     @Autowired
     ProyectorRepository proyectorRepository;
 
-    @Autowired
-    DevolucionService devolucionService;
-
-    @Autowired
-    PrestamoService prestamoService;
 
     public List<Proyector> obtenerTodos()
     {
